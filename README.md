@@ -1,15 +1,18 @@
 # Transportation-Network-Perimeter-Control
-files description:/n
-  python files: 
-    ppo.py - ppo algorithm implementation.
-    train.py - training code.
-    generate_routes_xml.py - configurable script to create a random route xml file.
-    heatmap.py - script to visualize the traffic as heatmap.
-    sumo_env.py - wrapps and manages the sumo simulation as a gym environment. need to install it as a package to use it.
-  sumo files: 
-    network.net.xml - network xml configuration.
-    route_file.rou.xml - car trips configuration.
-    trafic_lights.tll.xml - traffic lights configuration.
-    sim1-5.sumocfg - 5 different sumo simulations based on different route file.
-    
+
+## Files Description:
+
+### Python Files:
+- **ppo.py**: PPO algorithm implementation.
+- **train.py**: Training code.
+- **generate_routes_xml.py**: Configurable script to create a random route XML file.
+- **heatmap.py**: Script to visualize the traffic as a heatmap.
+- **sumo_env.py**: Wraps and manages the SUMO simulation as a Gym environment. Needs to be installed as a package to use it.
+
+### SUMO Files:
+- **network.net.xml**: Network XML configuration.
+- **route_file.rou.xml**: Car trips configuration.
+- **traffic_lights.tll.xml**: Traffic lights configuration.
+- **sim1-5.sumocfg**: Five different SUMO simulations based on different route files.
+
     
